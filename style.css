@@ -1,0 +1,192 @@
+/* https://coolors.co/acbea3-40476d-826754-ff7f11-ad5d4e */
+
+
+body {
+	width: calc(100% - 80px);
+	color: #eee5e9;
+	background: #E0e7dd;
+	
+}
+
+
+
+
+section {
+	display: flex;
+	margin: 40px 40px 40px 40px;
+	background-color: #f4f6ff;
+	border-radius: 30px;
+
+} 
+
+
+
+
+nav {
+	background-color: #c6b9b2; /* pastel brown */
+	margin: 135px 10px 20px 20px;
+	font-family: Verdana, sans-serif;
+	min-width: 350px;
+	max-width: 15%;
+	flex: 1;
+
+	
+	border-radius: 10px;
+	border: 1px solid #7c7c7c;
+	padding: 2px 2px 2px 2px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+				0 10px 10px rgba(0,0,0,0.22);
+	height: 800px;
+	background: radial-gradient(circle 350px at 10% 33%, #F4F2F1, #534236);
+	opacity: 1;
+/*	background: #534236 url(backgroundimage.jpg) fixed 1px 225px; */
+	
+}    
+
+nav h1 {
+	color: brown;
+	font-size: 20px;
+	border: 1px solid black;
+	margin: 10px 0 5px 0;
+	background-color: white;
+	padding: 2px 10px 2px 10px;
+}
+
+nav ul {
+	display: block;
+/*	list-style-type: square; */
+	color: brown;
+	background-color: white;
+	border: 1px solid black;
+	padding: 2px 10px 2px 10px;
+	margin: 10px 0 15px 0;
+}
+
+nav li, nav a {
+	display: block;
+/*	list-style-type: square; */
+	color: brown;
+	background-color: white;
+}
+
+
+.navControlButtons li {
+	display: block;
+	border: 1px solid black;
+	background-color:  #40476d;
+	text-align: center;
+	padding: 2px 10px 2px 10px;
+	margin: 10px 0 10px 0;
+	color: white;
+}
+
+main {
+	font-style: normal;
+	font-family:  "Book Antiqua", Georgia, serif;
+	font-size: 18px;
+	margin: 20px 20px 20px 40px;
+	max-width: 800px;
+	display: none;
+}
+
+main h1 {
+	font-family: Helvetica, sans-serif;
+	font-style: bold;
+	color: black;
+	font-size: 24px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+				0 10px 10px rgba(0,0,0,0.22);
+	background-color: #FFA500;
+	padding: 3px 10px 3px 10px;
+	background: linear-gradient(to right, #FFA500, #FFe6b9)
+
+}
+
+main h2 {
+	font-family: Verdana, sans-serif;
+	font-style: normal;
+	color: black;
+	font-size: 18px;
+	background-color: #ffcd73;
+	box-shadow: 	0 14px 28px rgba(0,0,0,0.25),
+			0 10px 10px rgba(0,0,0,0.22);
+	padding: 3px 10px 3px 10px;
+	background: linear-gradient(to right, #FFe6b9, #FFA500)
+}
+
+header {
+	font-style: normal;
+	font-style: bold;
+	color: black;
+	font-family: "Arial", sans-serif;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+/*	border: 1px solid black; */
+}
+
+header h1 {
+	font-size: 48px;
+	text-shadow: 	0 14px 28px rgba(0,0,0,0.25),
+					0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 0 0 rgba(0,0,0,0); 
+	background: #f4f6ff;
+	font-family: "Arial", sans-serif;
+/*	border: 1px solid black; */
+	margin: 0px 0px 0px 0px;
+
+}
+
+header h2 {
+	font-size: 24px;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	background: #f4f6ff;
+	font-family: "Arial", sans-serif;
+	text-shadow: 	0 14px 28px rgba(0,0,0,0.25),
+					0 10px 10px rgba(0,0,0,0.22);
+/*	border: 1px solid black; */
+	margin: 1px 10px 1px 10px;
+}
+
+article {
+	background-color: white; 
+	margin: 5px 2px 5px 2px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+				0 10px 10px rgba(0,0,0,0.22);
+	font-family: Verdana, sans-serif;
+	font-style: normal;
+	color: black;
+	font-size: 16px;
+
+}
+
+article p {
+	font-family: Verdana, sans-serif;
+	font-style: normal;
+	color: black;
+	font-size: 16px;
+	padding: 3px 10px 3px 10px;
+}
+
+article ul {
+	display: block;
+	list-style-type: square;
+	color: black;
+}
+
+article li {
+	display: block;
+	list-style-type: square;
+	color: black;
+	padding-bottom: 5px;
+	
+}
+
+.navFileLinks {
+
+	display: none;
+}
+
+.navContactInfo {
+	display: none;
+}
+
+

@@ -1,0 +1,181 @@
+<!-- What to do:
+Enhance your resume with however you see fit based off what you learned this week. Keep a log of changes that you made that will help support your written portion of this assignment.
+Recommit your work to GitHub Pages so that I can review what you have completed.
+Email us a summary of what you changed about your resume styling and presentation. In talking about what you changed, make sure to talk about what things might have been 'new learnings' for you and why you decided to integrate them into your existing resume.--> 
+
+
+<!-- optional
+Get rid of those Divs!
+Divs are awesome. We use them a ton once we get into adding functionality to our web experiences. But some developers use them excessively. Your task is to replace every Div you have in your resume with any of the new tags you learned about.
+NOTE: There might be reasons why you can't eliminate all of them, the goal here is to think critically about what NEEDS to be a Div, versus what can be something else.
+Once you are complete, post your work to GitHub Pages and email your instructors.
+-->
+
+
+
+
+<!-- RESUME RE-RE-CHALLENGE
+
+Lets take one more crack at that Resume. This time, hide the entire resume. Then, using a button, reveal the resume using jQuery. Additionally, push the styling of the resume with all the new crazy CSS you just learned!
+
+This time, instead of checking it into GitHub pages, lets check it into a new repo called "prime_prestudy_06_resume". -->
+
+
+
+
+
+<!doctype html>
+<html>
+
+	<head>
+		<title>Bill Kremer, CSP - Resume</title>
+		<script src='jquery-3.1.1.min.js'></script>
+		<script src='script.js'></script>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
+    
+<section>
+    	<nav>
+      		<h1>Controls</h1>
+      			<ul class='navControlButtons'>
+      			<li id='revealButton'>Reveal Everything!</li>
+    <!--  			<li>toggle highlighting</li>
+      			<li>three</li>
+      			<li>four</li>    -->
+      			</ul>
+
+
+      		<h1>Files</h1>
+      			<ul class='navFileLinks'>
+				<li><a href="https://billkremer.github.io/HTML-CSS-Resume/2015%20Kremer%20Safety%20Health%20Resume%20-%20Original.pdf">original resume</a></li>
+				<li><a href="https://billkremer.github.io/HTML-CSS-Resume/basic resume.html">original HTML Resume - HTML file</a></li>
+				<li><a href="https://billkremer.github.io/HTML-CSS-Resume/main.css">Original HTML Resume - CSS file</a></li>
+				<li><a href="https://billkremer.github.io/HTML-CSS-Resume/experiment resume.html">Early CSS Experiment Resume - HTML file</a></li>
+				<li><a href="https://billkremer.github.io/HTML-CSS-Resume/experiment.css">Early CSS Experiment Resume - CSS file</a></li>
+				<li><a href="https://billkremer.github.io/Resume-week-1-Prime/">Previous Resume with update</a></li>
+				<li><a href="https://billkremer.github.io/Resume-week-1-Prime/main2.css">Previous Resume with update - CSS file</a></li>
+				<li><a href='https://billkremer.github.io/prime_prestudy_06_resume/'>Current Resume with jQuery functionality</a></li>
+				<li><a href='https://billkremer.github.io/prime_prestudy_06_resume/style.css'>Current Resume - css file</a></li>
+				<li><a href='https://billkremer.github.io/prime_prestudy_06_resume/script.js'>Current Resume - JavaScript file</a></li>
+			</ul>
+
+			<h1>Contact</h1>
+			<ul class='navContactInfo'>
+				<li><a href="mailto:bill.kremer.csp@gmail.com?subject=Saw%20your%20resume%20on%20GitHub">bill.kremer.csp@gmail.com</a></li>
+				<li><a href="https://www.linkedin.com/in/billkremer">LinkedIn Profile</a></li>
+			</ul>
+			<figure>
+			<center><img src="backgroundimage.jpg" alt="photo of Bill Kremer" width=212px height=239px />
+				<figcaption>Bill Kremer</figcaption>
+			</center>
+			</figure>
+		</nav>
+
+	<main>
+
+			<header>
+				<center><h1>Bill Kremer, CSP</h1>
+				<h2>Minneapolis, Minnesota, USA</h2>
+				</center>
+			</header>
+
+		
+		<h1>Summary</h1>	
+			<h2>Current State:</h2>
+			<article><p>Safety and Health Program Specialist with expertise across multiple industries.  Hands-on partner with executive-level management to front-line production employees to ensure complete and effective implementation of safety best practices.  Safety training including "why" and verification of understanding.  Development of comprehensive safety programs integrated into work processes.</p>
+			</article>
+			
+			<h2>Future State:</h2>
+			<article><p>Full Stack Software Engineer familiar with both inside-the-box computer coding and outside-the-box physical manufacturing and processing methods. Seeking opportunities to apply previous experiences and learn about new ways of thinking and how to integrate new technologies to solve problems.</p>
+	  		</article>
+
+			
+		<h1>Certification</h1>
+			<article>
+			<p><b>Certified Safety Professional</b>, <a href="http://www.bcsp.org">Board of Certified Safety Professionals</a>, since <time datetime="2009">2009</time></p>
+<!-- if it fits: <a href="http://www.bcsp.org"><img src="http://www.bcsp.org/Portals/_default/Skins/BCSP01/images/bcsp-logo_w372.png" alt="BCSP logo"></a> -->
+			</article>
+
+		<h1>Experience</h1>
+			<article>
+			<p><b>Senior Safety Engineer</b>, <time datetime="2011">2011</time> - <time datetime="2016">2016</time>
+			<br><a href="http://www.donaldson.com"><b>Donaldson Company, Incorporated</b></a>, Bloomington, Minnesota, USA
+<!-- if it fits: <a href="http://www.donaldson.com"><img src="https://donaldson.com/etc/designs/donaldson/clientlibs/global/images/logo@2x.png" alt="Donaldson logo"></a> -->
+			<p>Manufacturer of industrial, large engine, and electronics air filtration and engine fluids filtration.  Over 12,000 employees in more than 40 countries.</p>
+
+			<ul>
+				<li>Primary safety resource for all USA manufacturing locations.</li>
+				<li>Technical expert for first two USA sites achieving OHSAS 18001 Certification.</li>
+				<li>Occupational Health and Safety compliance auditing for multiple USA and Global locations, including China, South Africa and Australia.</li>
+				<li>Routine performance of air contaminant and noise sampling to ensure compliance with local, regional and national regulatory limits.</li>
+				<li>Use of LEAN manufacturing techniques to incorporate health and safety into production processes.</li>
+			</ul>
+
+			</article>
+
+			<article>
+			<p><b>Occupational Safety and Health Consultant</b>, <time datetime="2010">2010</time> - <time datetime="2011">2011</time>
+			<br>Consultant for <a href="http://www.milkspecialties.com"><b>Milk Specialties Global</b></a>, Fond du Lac, Wisconsin and other locations</p>
+<!-- if it fits: <a href="http://www.milkspecialties.com"><img src="http://www.milkspecialties.com/wp-content/uploads/2014/03/Website-logo.png" alt="Milk Specialties logo"></a> -->
+			<p>Manufacturer of milk protein food products</p>
+
+			<ul>
+				<li>Performed Occupational Safety and Health Surveys to help employers identify, prioritize, and eliminate or reduce hazards in their workplaces.</li>
+				<li>Developed site and process specific safety procedures including Lockout / Tagout and Confined Space Entry.</li>
+				<li>Performed safety training based on employer-specific policies and actual workplace hazards.</li>
+			</ul>
+</article>
+			<article>
+			<p><b>Corporate Safety Program Manager</b>, <time datetime="2008">2008</time> - <time datetime="2010">2010</time>
+			<br><a href="http://www.spartannash.com"><b>Nash Finch Company (now SpartanNash)</b></a>, Edina, Minnesota, USA
+			<br>Fortune 500 wholesale food distribution company with over 7500 employees working in 20 distribution centers and 60 retail stores.</p>
+<!-- if it fits: <a href="http://www.spartannash.com"><img src="https://15923-presscdn-0-60-pagely.netdna-ssl.com/wp-content/themes/snc/assets/images/logo.png" alt="SpartanNash logo"></a> -->
+			<ul>
+				<li>Provided direction and resources for site management to create and foster a safety culture.</li>
+				<li>Spearheaded the creation of a Fleet Safety program for more than 400 company truck drivers by working cooperatively with fleet management, dispatchers and drivers.</li>
+				<li>Created training materials and tools to effectively train employees and supervisors in both distribution warehouses and retail stores, including Powered Industrial Truck Training, Incident Investigation, Safe Lifting, Protective Footwear, and Ergonomic Best Practices.</li>
+				<li>Performed safety audits at grocery distribution warehouses and retail stores, and worked with site management to develop action plans and solutions.</li>
+				<li>Developed improved safety metrics for both distribution warehouses and retail stores.</li>
+			</ul>
+</article>
+			<article>
+
+			<p><b>Industrial Hygiene Engineer / Health Investigator</b>, <time datetime="2000">2000</time> - <time datetime="2008">2008</time>
+			<br><a href="http://www.dli.mn.gov/MnOsha.asp"><b>Minnesota Occupational Safety and Health Administration (OSHA)</b></a>,
+			<br><a href="http://www.dli.mn.gov">Department of Labor and Industry</a>, Saint Paul, Minnesota, USA
+			Regulating agency, responsible for workplace safety and health of all Minnesota workers.</p>
+<!-- if it fits: <a href="http://www.doli.state.mn.us"><img src="http://www.doli.state.mn.us/Images/DLI4web.png" alt="Minnesota Department of Labor and Industry logo"></a> -->
+			<ul>
+				<li>Conducted over 270 complaint, programmed, and accident investigations, including Process Safety Management assessments and industrial hygiene evaluations in numerous work environments, including metal fabrication, plastic injection molding operations, food processing, concrete manufacturing, woodworking facilities and construction sites.</li>
+				<li>Wrote reports for each investigation including legally defensible citations and participated in their defense during settlement agreements.</li>
+				<li>Attended extensive safety and health training courses at the OSHA Training Institutes.</li>
+				<li>Participated on the MNOSHA Process Safety Management (PSM) Team, reviewing compliance direction and advising employers on PSM issues.</li>
+				<li>Provided stakeholder service via email, letter and telephone regarding standard interpretation and industrial hygiene issues.</li>
+			</ul>
+</article>
+
+			<h1>Education</h1>
+<article>
+			<p>B.S. Chemical Engineering
+			<br><a href="http://www.mtu.edu">Michigan Technological University</a>, Houghton, Michigan, USA</p>
+<!-- if it fits: <a href="http://www.mtu.edu/mtu_resources/images/download-central/logos/full-horizontal/full-color.png" alt="Michigan Technological University logo"></a> -->
+</article>
+			<h1>Professional Membership</h1>
+			<article>
+			  <p><a href="http://www.asse.org">American Society of Safety Engineers</a> - <a href="http://northwest.asse.org">Northwest Chapter</a></p>
+</article>
+<!-- if it fits: <a href="http://northwest.asse.org"><img src="http://northwest.assewp.org/wp-content/uploads/sites/116/2016/04/NorthwestChapter.png" alt="Northwest chapter of the American Society of Safety Engineers logo"></a> -->
+
+			<h1>Computer</h1>
+			<article>
+			<p>Microsoft - Macintosh - MS Word - MS Excel - MS PowerPoint - MS Access - MS Project - MS SharePoint - WordPerfect - Lotus Notes - GroupWise - OpenOffice.org</p>
+
+			</article>
+
+		</main>
+	</section>
+	</body>
+
+</html>
